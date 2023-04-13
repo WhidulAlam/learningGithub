@@ -26,7 +26,7 @@ public class GetTestWithQueryParameter {
         //The server is specified in the base url that we specified in the above step.
         RequestSpecification httpRequest= RestAssured.given();
 
-        //Make a request to the server by the HTTP
+        //Make a request to the server by the specifying HTTP Method type.
         Response response = httpRequest.queryParam("page", "2").request(Method.GET);
         LOGGER.debug(response.getBody().asString());
 

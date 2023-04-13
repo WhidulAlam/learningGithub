@@ -9,7 +9,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.asynchttpclient.Request;
 import org.junit.Test;
-import org.openqa.selenium.devtools.v108.fetch.model.AuthChallengeResponse;
 import org.testng.Assert;
 
 import java.util.List;
